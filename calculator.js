@@ -12,10 +12,6 @@ const equalsButton = document.getElementById("equals");
 let angka = "";
 
 
-/* =====================================================
-   TOMBOL ANGKA DAN OPERATOR
-===================================================== */
-
 buttons.forEach(function(button) {
 
     button.addEventListener("click", function() {
@@ -28,11 +24,6 @@ buttons.forEach(function(button) {
 
 });
 
-
-/* =====================================================
-   CLEAR
-===================================================== */
-
 clearButton.addEventListener("click", function() {
 
     angka = "";
@@ -40,11 +31,6 @@ clearButton.addEventListener("click", function() {
     display.textContent = "0";
 
 });
-
-
-/* =====================================================
-   HAPUS SATU ANGKA
-===================================================== */
 
 deleteButton.addEventListener("click", function() {
 
@@ -61,11 +47,6 @@ deleteButton.addEventListener("click", function() {
     }
 
 });
-
-
-/* =====================================================
-   HASIL
-===================================================== */
 
 equalsButton.addEventListener("click", function() {
 
